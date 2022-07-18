@@ -9,7 +9,7 @@ public class DuckInstantiator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("InstantiateDuck", 1f, Random.Range(1.5f, 3f));
+        InvokeRepeating("InstantiateDuck", 2f, 1f);
     }
 
     void InstantiateDuck()

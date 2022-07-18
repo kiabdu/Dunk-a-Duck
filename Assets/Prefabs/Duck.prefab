@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 587980130969357114}
   - component: {fileID: 5806585584730615067}
   - component: {fileID: 6329981696394566645}
-  - component: {fileID: 962049267554442935}
-  m_Layer: 0
+  - component: {fileID: 6846277328284945859}
+  m_Layer: 3
   m_Name: Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2257100078807095872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.417711, y: -3.2813125, z: 0}
+  m_LocalPosition: {x: 2.1520193, y: -3.3763242, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35,7 +35,7 @@ Transform:
   - {fileID: 3187132108043997605}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 13.189}
 --- !u!114 &5806585584730615067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,26 +65,47 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!111 &962049267554442935
-Animation:
+--- !u!60 &6846277328284945859
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2257100078807095872}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 6e3047791908f401aa07e829c97eb0e9, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 6e3047791908f401aa07e829c97eb0e9, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4084909, y: 1.3466976}
+      - {x: 0.37436295, y: 1.4723053}
+      - {x: 0.19728947, y: 1.616341}
+      - {x: 0.013699055, y: 1.5216234}
+      - {x: -0.013805151, y: 1.1311474}
+      - {x: -0.39195424, y: 1.2546592}
+      - {x: -0.4306121, y: 1.0558116}
+      - {x: -0.35470223, y: 0.8500185}
+      - {x: -0.070097744, y: 0.7026304}
+      - {x: 0.27027047, y: 0.7854607}
+      - {x: 0.3565395, y: 0.9580226}
+      - {x: 0.29531908, y: 1.2201471}
 --- !u!1 &5334847332162230733
 GameObject:
   m_ObjectHideFlags: 0
